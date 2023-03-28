@@ -1,0 +1,23 @@
+.post {
+margin: 1rem 0;
+padding: lrem;
+background-color: #320880;
+border-radius: 8px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+animation: animate-in 1s ease-out forwards;
+margin-left: 400px;
+}
+.author {
+    font-size: 0.8rem;
+    font-weight: blod;
+    color: #543280;
+    margin: 0;
+    text-transform: uppercase;
+}
+.text {
+    white-space: pre-wrap;
+    font-size: 1.25rem;
+    margin: 0.25rem 0 0 0;
+    color: #523884;
+    font-style: italic;
+}
