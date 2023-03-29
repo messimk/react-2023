@@ -21,8 +21,14 @@ function PostsList({isPosting, onStopPosting}) {
      </Modal> )}
      
      <ul className={classes.posts}>
-         {posts.map((post) => <Post author={post.author} body={post.body}/>)}
+         {posts.map((post) => <Post author={post.author} body={post.body} />)}
      </ul>
+     {posts.length == 0 && (
+      <div style = {{color: 'white', textAlign:'center'}}>
+       <h1>There is no any post</h1>
+       <h2>For post click new post button and Submit</h2>
+      </div>
+     )}
     </>
     );
 }
